@@ -42,7 +42,7 @@ gcc src/main.c src/gui.c src/render.c -o app \
     -lm -ldl -lpthread \
     -lwayland-client -lwayland-cursor -lwayland-egl -lxkbcommon
 ```
-*Note: Plan to move to CMake or [nob.h]https://github.com/tsoding/nob.h/ in the future. *
+*Note: Plan to move to CMake or [nob.h](https://github.com/tsoding/nob.h/) in the future. *
 
 ### Launch the Application:
 ```
