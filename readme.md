@@ -26,7 +26,7 @@ Before building, make sure your system has the standard Wayland client developme
 sudo apt update
 sudo apt install cmake xorg-dev libwayland-dev libxkbcommon-dev wayland-protocols libegl1-mesa-dev libdecor-0-dev
 ```
-*Note: This project strictly links against a custom-built static libglfw3.a (alternative as per platform) compiled with native platform flags Eg. (-D GLFW_BUILD_WAYLAND=ON) to make the binaries portable. *
+*Note: This project strictly links against a custom-built static libglfw3.a (alternative as per platform) compiled with native platform flags Eg. (-D GLFW_BUILD_WAYLAND=ON) to make the binaries portable.*
 
 ---
 
@@ -42,7 +42,7 @@ gcc src/main.c src/gui.c src/render.c -o app \
     -lm -ldl -lpthread \
     -lwayland-client -lwayland-cursor -lwayland-egl -lxkbcommon
 ```
-*Note: Plan to move to CMake or [nob.h](https://github.com/tsoding/nob.h/) in the future. *
+*Note: Plan to move to CMake or [nob.h](https://github.com/tsoding/nob.h/) in the future.*
 
 ### Launch the Application:
 ```
